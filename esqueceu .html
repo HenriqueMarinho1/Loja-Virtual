@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>home/login/cadastro</title> 
+</head> 
+<body> 
+    <div class="espaco" id="espaco"> 
+        <div class="lc cadastro"> 
+            <form class="cl"> 
+                <h1 id="ui">Recuperar Usuário</h1> 
+                <label for="number" class="cup">Informe seu CPF:</label><input id="informecpf" type="numeric" class="cup1" maxlength="12" placeholder="000.000.000-00"> 
+                <button class="button entrar"><a href="inicial.html">Recuperar</a></button> 
+            </form> 
+        </div> 
+        <div class="lc login"> 
+            <form class="cl"> 
+                <h1 id="ui">Recuperar Senha</h1> 
+                <span class="frase">Use o seu email e senha</span> 
+                <input class="inp" type="email" placeholder="Email" required> 
+                <input class="inp" type="password" placeholder="Ultima senha registrada" required> 
+                <button class="button entrar"><a href="inicial.html">Logar</a></button> 
+            </form> 
+        </div> 
+        <div class="janela"> 
+            <div class="jan"> 
+                <div class="lado esquerdo"> 
+                    <h1>Não lembro minha "Senha"?</h1> 
+                    <p>Recuperar Senha</p> 
+                    <button class="l" id="login">Recuperar</button> 
+                </div> 
+                <div class="lado direito"> 
+                    <h1>Não lembra seu "Usuário"?</h1> 
+                    <p>Recuperar Usuário</p> 
+                    <button class="c" id="register">Recuperar</button> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    <script src="js/home.js"></script> 
+</body> 
+
+</html>

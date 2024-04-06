@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+  <link rel="stylesheet" href="css/stylef.css"> 
+  <title>home/login/cadastro</title> 
+</head> 
+<body> 
+  <div class="espaco" id="espaco"> 
+    <div class="lc"> 
+      <form class="cl"> 
+        <center><h1 class="formas">Formas de Pagamento</h1></center> 
+        <div class="cdp"> 
+          <button class="button1 c">Crédito</button> 
+          <button class="button1 d">Débito</button> 
+          <button class="button1 p">PIX</button> 
+        </div> 
+        <label class="nada">espaco</label> 
+        <label for="number" class="esp">CEP: </label><input type="numeric" id="cpf" class="esp1" inputmode="numeric" maxlength="9" placeholder="00000-000"> 
+        <label class="escrita">Prazo de entrega: <label class="interior b">8 Dias Utéis</label></label> 
+        <button class="frase"><a href="#" class="frase">Não sei meu CEP</a></button> 
+        <button class="frase"><a href="politica.html" class="frase">Dúvidas? Confira a nossa Política de Frete e Entregas</a></button> 
+        <label class="nada">espaco</label> 
+        <label for="number" class="cup">Cupom de Desconto: </label><input id="cupom" type="numeric" class="cup1" maxlength="12" placeholder="000-000-000-000"> 
+        <label class="escrita">Resumo: <label class="interior ca">Cabo de conduite de 50m</label></label> 
+        <label class="escrita">Valor dos produtos: <label class="interior de">R$ 149.99 X 5</label></label> 
+        <label class="escrita">Frete Descontos: <label class="interior f">12%</label></label> 
+        <label class="escrita">Total da Compra: <label class="interior e">R$ 749.99</label></label> 
+        <center><button class="button1 continuar" href="pg1.html">Continuar</button></center> 
+      </form> 
+    </div> 
+  </div> 
+<script> 
+  document.getElementById('cpf').addEventListener 
+  ('input', function(e){ 
+    var value = e.target.value; 
+    var cpfPattern = /^(\d{5})(\d{3})$/; 
+    if (cpfPattern.test(value)){ 
+      e.target.value = value.replace(cpfPattern, '$1-$2'); 
+    } 
+  }); 
+
+  document.getElementById('cupom').addEventListener 
+  ('input', function(e){ 
+    var value = e.target.value; 
+    var cpfPattern = /^(\d{3})(\d{3})(\d{3})(\d{3})$/; 
+    if (cpfPattern.test(value)){ 
+      e.target.value = value.replace(cpfPattern, '$1-$2-$3-$4'); 
+    } 
+  }); 
+</script> 
+</body> 
+
+</html> 

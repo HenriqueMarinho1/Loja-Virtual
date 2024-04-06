@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* NÃO ESQUÇA QUE VC TIROU  O float: right; DO . DROPDOWN*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrant', sans-serif;
+}
+
+.bf {
+  width: 25px;
+  height: 25px;
+}
+
+.dropdown {
+  padding-bottom: 50px;
+  width: 230px;
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown ul {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 6px 5px -5px rgba(0, 0, 0, 0.86);
+  overflow: hidden;
+  border-radius: 0 0 8px 8px;
+  z-index: 9;
+}
+
+.dropdown a {
+  text-align: center;
+  display: block;
+  padding: 0 0 0 10px;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+  background-color: #fff;
+}
+
+.dropdown li {
+  height: 0;
+  overflow: hidden;
+}
+
+.dropdown li:first-child a {
+  border-radius: 8px 8px 0 0;
+}
+
+.dropdown li:last-child a {
+  border-radius: 0 0 2px 2px;
+}
+
+.dropdown .primeiro-item {
+  background: transparent;
+  color: rgb(36, 36, 36);
+}
+
+.dropdown .primeiro-item:hover {
+  background: transparent;
+  color: #242424;
+}
+
+.dropdown a:hover,
+.dropdown>label:hover,
+.dropdown>input:checked~label {
+  background-color: orange;
+  color: #fff;
+}
+
+.dropdown>a:hover::after,
+.dropdown>label:hover::after,
+.dropdown>input:checked~label::after {
+  border-top-color: #AAA;
+}
+
+.dropdown li:first-child a:hover::before {
+  border-bottom-color: black;
+}
+
+.dropdown.hover:hover li,
+.dropdown>input:checked~ul li {
+  height: auto;
+}
+
+.dropdown.hover:hover li:first-child,
+.dropdown>input:checked~ul li:first-child {
+  padding-top: 15px;
+}
+
+header {
+  background-color: #ff8800;
+  text-align: center;
+  width: 100%;
+  height: 150%;
+  position: relative;
+  display: block;
+}
+.cabecario {
+  float: left;
+  text-align: center;
+  margin-left: 30px;
+  padding-top: 20px;
+  position: relative;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+p {
+  font-size: 100%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+body {
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+
+.container1 {
+  margin: 0;
+
+}
+
+.produtos1 {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.descprodutos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  width: calc(100% / 3 - 60px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-position{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  width: 100%;
+}
+
+.img2 {
+  float: left;
+  margin: 4%;
+  width: 20%;
+}
+
+
+
+.logo {
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+
+}
+
+.cfgbarra {
+  margin-top: 20px;
+
+}
+
+.buscar {
+  align-items: center;
+  justify-content: center;
+}
+
+.txtbusca {
+  text-align: left;
+  margin-top: 50px;
+  height: 32px;
+  width: 350px;
+  border: 0 6px 5px -5px rgba(0, 0, 0, 0.86);
+  ;
+  border-radius: 8px;
+  position: relative;
+}
+
+.imgbuscar {
+  height: 30px;
+  width: 30px;
+}
+
+.user {
+  width: 60px;
+  height: 60px;
+}
+
+.entrar {
+  float: right;
+  position: relative;
+  margin-right: 5%;
+  padding-top: 38px;
+}
+
+.entrar button {
+  border: none;
+  background-color: transparent;
+}
+
+.entrar button:active {
+  box-shadow: rgba(0, 0, 0, 0.86);
+  border: transparent;
+  background-color: transparent;
+}
+
+.entrar button {
+  border-color: #ff8800;
+}
+
+.comprar {
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    background-color: #ff8800;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: block;
+  }
+
+  .descprodutos{
+    width: calc(100% / 1 - 60px);
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+
+  }
+
+  .txtbusca {
+    text-align: left;
+    margin-top: 5px;
+    height: 32px;
+    width: calc(100% / 1 - 60px);
+    border: 0 6px 5px -5px rgba(0, 0, 0, 0.86);
+    ;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .entrar {
+    margin-top: -20px;
+  }
+
+  .user {
+    width: 50px;
+    height: 50px;
+  }
+
+  .cfgbarra {
+    margin-top: 5px;
+
+  }
+}
+

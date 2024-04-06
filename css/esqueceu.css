@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); 
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif; 
+} 
+ 
+body { 
+    background-color: #c9d6ff; 
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    height: 100vh; 
+    text-decoration: none; 
+    text-align: center;
+} 
+ 
+.espaco { 
+    background-color: #fff; 
+    border-radius: 30px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); 
+    position: relative; 
+    overflow: hidden; 
+    width: 60%; 
+    max-width: 100%; 
+    min-height: 40%; 
+} 
+
+.up{
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(to right, rgb(255, 123, 0), rgb(255, 94, 0), rgb(255, 123, 0)); 
+}
+ 
+
+.volta{
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    background-color: transparent;
+    border-color: transparent;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+}
+
+a:hover{
+    color: black;
+}
+
+.tip{
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: rgb(221, 221, 221);
+    margin: 1%;
+    position: relative;
+    width: 80%;
+    height: 40px;
+    font-size: 150%;
+    top: 20px;
+}
+
+.but{
+    background-color:  rgb(255, 145, 0);
+    border-radius: 8px;
+    border-color: transparent;
+    width: 80%;
+    height: 40px;
+    transition: all 0.5s ease;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+.but:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.bot :hover{
+    color: black;
+}
+

@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); 
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif; 
+} 
+ 
+body { 
+    background-color: #c9d6ff; 
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    height: 100vh; 
+    text-decoration: none; 
+} 
+ 
+.espaco { 
+    background-color: #fff; 
+    border-radius: 30px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); 
+    position: relative; 
+    overflow: hidden; 
+    width: 768px; 
+    max-width: 100%; 
+    min-height: 480px; 
+} 
+ 
+ 
+.cl { 
+    background-color: #fff; 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    height: 100%; 
+    text-decoration: none; 
+} 
+ 
+.lc { 
+    position: relative; 
+    margin: 5%; 
+} 
+ 
+.cdp { 
+    margin-top: 10px; 
+    height: 100%; 
+    position: relative; 
+    width: 100%; 
+} 
+ 
+.d { 
+    position: relative; 
+    left: 12%; 
+} 
+ 
+.p { 
+    position: relative; 
+    left: 24%; 
+} 
+ 
+.button1 { 
+    background-color: orange; 
+    color: white; 
+    width: 25%; 
+    height: 40px; 
+    border-color: transparent; 
+    border-radius: 8px; 
+    font-weight: 600; 
+    font-size: 100%; 
+} 
+ 
+.button1:hover { 
+    background-color: rgb(255, 123, 0); 
+    color: black; 
+} 
+ 
+.nada { 
+    color: transparent; 
+} 
+ 
+.esp { 
+    width: 100%; 
+    border-radius: 8px; 
+    border-color: transparent; 
+    position: absolute; 
+    width: 100%; 
+    height: 5%; 
+    top: 25%; 
+    background-color: rgb(235, 235, 235); 
+} 
+ 
+.esp1 { 
+    width: 91%; 
+    border-radius: 8px; 
+    border-color: transparent; 
+    top: 25%; 
+    position: absolute; 
+    background-color: transparent; 
+    left: 9%; 
+} 
+ 
+.cup { 
+    width: 100%; 
+    border-radius: 8px; 
+    border-color: transparent; 
+    position: absolute; 
+    width: 100%; 
+    height: 5%; 
+    top: 52%; 
+    background-color: rgb(235, 235, 235); 
+} 
+ 
+.cup1 { 
+    width: 58%; 
+    border-radius: 8px; 
+    border-color: transparent; 
+    top: 52%; 
+    position: absolute; 
+    background-color: transparent; 
+    left: 42%; 
+} 
+ 
+.cupom { 
+    border-radius: 8px; 
+    border-color: transparent; 
+    background-color: rgb(235, 235, 235); 
+    position: absolute; 
+    right: 0px; 
+    width: 74.9%; 
+} 
+ 
+.interior { 
+    position: relative; 
+    width: 100px; 
+    border-radius: 8px; 
+    color: rgb(122, 122, 122); 
+    font-size: 100%; 
+    position: absolute; 
+    right: 0px; 
+} 
+ 
+.ca { 
+    width: 208px; 
+} 
+ 
+.f { 
+    width: 30px; 
+} 
+ 
+.de { 
+    width: 103px; 
+} 
+ 
+.e { 
+    width: 77px; 
+} 
+ 
+.frase { 
+    border-color: transparent; 
+    background-color: transparent; 
+    border-radius: 8px; 
+    color: rgb(109, 109, 109); 
+    font-size: 100%; 
+    margin-bottom: 5px; 
+    text-decoration: none;
+} 
+
+.frase:hover { 
+    background-color: rgb(235, 235, 235); 
+    color: black; 
+} 
+ 
+.continuar { 
+    position: relative; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    width: 100%; 
+    font-size: 150%; 
+} 
+ 
+.escrita { 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    font-size: 100%; 
+    position: sticky; 
+} 
+ 
+.espe { 
+    background-color: #fff; 
+    border-radius: 30px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); 
+    position: relative; 
+    overflow: hidden; 
+    width: 768px; 
+    max-width: 100%; 
+    min-height: 480px; 
+    height: 85%; 
+} 
+ 
+.dentro { 
+    position: relative; 
+} 
+ 
+.texto { 
+    font-size: 100%; 
+    margin: 3%; 
+} 
+ 
+.link { 
+    text-decoration: none; 
+    color: blue;
+} 
+ 
+.cima { 
+    background: linear-gradient(to right, rgb(255, 123, 0), rgb(255, 94, 0), rgb(255, 123, 0)); 
+    margin: 0%; 
+    width: 105.9%; 
+    position: relative; 
+    right: 3%; 
+    text-align: center; 
+} 
+ 
+.volta { 
+    position: absolute; 
+    left: 7%; 
+    bottom: 5%; 
+    background-color: transparent; 
+    border-color: transparent; 
+
+   font-size: 150%; 
+} 
+
+.aqui { 
+  text-decoration: none; 
+  color: white; 
+} 
+
+.sub { 
+    text-align: center; 
+    margin: 2%; 
+} 
