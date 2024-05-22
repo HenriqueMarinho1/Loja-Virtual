@@ -2,6 +2,6 @@
 Uma loja virtual de materiais de contrução (projeto do curso)
 
 # linguagens Ultilizadas
--HTML
--CSS
--JS
+-Html
+-Css
+-Javascript
